@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+
+           body {             
+            box-sizing: border-box;
+            padding:0;
+            margin:0;
+        }
+
+            section {
+                width: 300px;
+                height: 200px;
+                border: 1px solid;
+                border-color: black;
+                margin: 5px;
+                display: inline-block;
+                box-sizing: border-box;
+            }
+    
+            .spain {
+                background-color: red;
+            }
+    
+            .spain-red {
+                background-color: red;
+                height: 30%;
+            }
+    
+            .spain-yellow {
+                background-color: yellow;
+                height: 40%;
+            }
+    
+            .denmark {
+                background-color: red;
+                position: relative;
+            }
+    
+            .denmark-red {
+                height: 45%;
+                width: 45%;
+                position: relative;             
+            }
+    
+            .denmark-white-1 {
+                width: 298px;
+                border-bottom: 20px solid white;                
+                margin-left: 0rem;
+                height: 45%;
+                position: absolute;
+                top: 0;
+                z-index: 1;
+            }
+    
+            .denmark-white-2 {
+                border-right: 20px solid white;
+                height: 198px;
+                margin-top: 0rem;
+                margin-bottom: 5rem;
+                position: absolute;
+                top: 0;
+                z-index: 2;
+                width: 100px;
+            }
+    
+            .eau {
+                background-color: red;
+            }
+    
+            .eau-red {
+                background-color: red;
+                width: 20%;
+            }
+    
+            .eau-green {
+                background-color: green;
+                height: 33.3%;
+                width: 75%;
+                float: right;
+            }
+    
+            .eau-white {
+                background-color: white;
+                height: 33.3%;
+                width: 75%;
+                float: right;
+            }
+    
+            .eau-black {
+                background-color: black;
+                height: 33.3%;
+                width: 75%;
+                float: right;
+            }
+    
+            .japan {
+                background-image: radial-gradient(circle, red 33%, white 33%, white);
+            }
+        </style>
+
+    <title>Ejercicio 3</title>
+</head>
+<body>
+            <!--BANDERA ESPAÑA-->
+            <section class="spain">
+                <div class="spain-red"></div>
+                <div class="spain-yellow"></div>
+            </section>
+        
+            <!--BANDERA DINAMARCA-->
+            <section class="denmark">
+                <div class="denmark-red"></div>
+                <div class="denmark-white-1"></div>
+                <div class="denmark-white-2"></div>
+            </section>
+        
+            <!--BANDERA EMIRATOS ÁRABES-->
+            <section class="eau">
+                <div class="eau-green"></div>
+                <div class="eau-white"></div>
+                <div class="eau-black"></div>
+            </section>
+            
+            <!--BANDERA JAPÓN-->
+            <section class="japan"></section>
+        
+</body>
+</html>

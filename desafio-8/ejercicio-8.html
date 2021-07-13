@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <style media="screen" type="text/css">
+
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        /*SE QUITA VALOR DE LA PROPIEDAD LIST-STYLE*/
+        ul.menu {
+            list-style:
+            margin: 0;
+            padding: 0;
+        }
+        /*******************************************/
+
+        ul.menu li {
+            background: olive;
+            box-sizing: border-box;
+            float: left;
+            width: 25%;
+        }
+
+
+        /*SE AGREGA LA PROPIEDAD FIRST-CHILD DEL PRIMER ITEM DE LA LISTA PARA AGREGARLE UN FONDO NEGRO*/
+        ul.menu li:first-child {
+            background-color: black;
+        }
+        /***********************************************************************************************/
+
+
+        ul.menu li a {
+            color: #FFF;
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        ul.menu li a:hover {
+            background: #000;
+        }
+
+
+        /*SE AGREGA LA PROPIEDAD CLEAR CON VALOR DE BOTH PARA DESPLAZAR HACIA ABAJO EL PÁRRAFO*/
+        p {
+            clear: both;
+        }
+        /**************************************************************************************/
+
+    </style>
+
+    <title>Ejercicio 8</title>
+</head>
+<body>
+        <ul class="menu">
+                <li><a href="#">Item-1</a></li>
+                <li><a href="#">Item-2</a></li>
+                <li><a href="#">Item-3</a></li>
+            </ul>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus explicabo quas 
+                possimus voluptatum cumque eius! Quibusdam inventore libero provident, rerum repellat, 
+                autem officia sunt corporis tempore tempora eveniet sit doloremque.
+            </p>
+</body>
+</html>
